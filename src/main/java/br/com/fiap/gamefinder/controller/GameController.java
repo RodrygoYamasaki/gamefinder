@@ -46,6 +46,7 @@ public class GameController {
         return games;
     }
 
+    @GetMapping("/platforms/{platformId}")
     public List<Game> getGamesByPlatform(@PathVariable long platformId) {
         log.info("Buscando jogos para a plataforma com id: " + platformId);
 
