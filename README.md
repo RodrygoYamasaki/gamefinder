@@ -1,4 +1,5 @@
 # 🎮 GameFinder
+Web app para busca e consulta de jogos. Desenvolvido em Spring Boot, utiliza HATEOAS para fornecer uma API REST com navegação dinâmica entre recursos, facilitando o acesso e a exploração de informações sobre jogos.
 
 ## 👾 Tecnologias e Dependências
 
