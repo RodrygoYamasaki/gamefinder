@@ -22,5 +22,26 @@ Web app para busca e consulta de jogos. Desenvolvido em Spring Boot, utiliza HAT
    ```bash
    https://github.com/RodrygoYamasaki/gamefinder.git
    ```
-2. Utilize a IDE de sua escolha (IntelliJ, VS Code, Eclipse, etc.)
-3. Rode o projeto.
+2. **Utilize a IDE de sua escolha (IntelliJ, VS Code, Eclipse, etc.)**
+3. **Executar a aplicação:**
+
+   ```bash
+   mvn spring-boot:run
+   ```
+4. **Testar a API: Use o Insomnia para enviar requisições HTTP.**
+
+   ```bash
+   GET http://localhost:8080/games
+   ```
+
+   ```bash
+   GET http://localhost:8080/games/{id}
+   ```
+
+   ```bash
+   GET http://localhost:8080/games/genres/{genreId}
+   ```
+
+   ```bash
+   GET http://localhost:8080/games/platforms/{platformId}
+   ```
